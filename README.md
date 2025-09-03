@@ -103,7 +103,7 @@ sudo usermod -aG docker $USER
 > También puedes usar Docker Compose directamente:
 > ```bash
 > docker compose up --build
-> docker compose down
+> docker compose down # esto no borra los datos de la base de datos, con los scrips si los borras
 > ```
 
 ---
